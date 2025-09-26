@@ -8,7 +8,7 @@ public class Main {
         }
 
         float[] x = new float[11];
-        for (int i = 0; i < x.length; i++) {
+        for (int i = 0; i < 11; i++) {
             x[i] = (float) (-14 + Math.random() * 27);
         }
         double[][] w = new double[11][11];
